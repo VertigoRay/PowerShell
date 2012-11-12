@@ -86,6 +86,9 @@ string.'
 
 ''
 
+$my_var = if ($my_var) {"$(other_var):`n$another_var`n"} else {$NULL}
+$my_var = if ($my_var) {"${other_var}:`n$another_var`n"} else {$NULL}
+
 # Note there are no escaped sequences here but for ''.
 'This is some `n ''$%&/ string too '''
 
